@@ -169,7 +169,7 @@
 };
 
 &gmac0 {
-	mtd-mac-address = <&factory 0xe006>;
+	mtd-mac-address = <&factory 0xe000>;
 };
 
 &switch0 {
@@ -187,7 +187,7 @@
 		port@4 {
 			status = "okay";
 			label = "wan";
-			mtd-mac-address = <&factory 0xe000>;
+			mtd-mac-address = <&factory 0xe006>;
 		};
 	};
 };
